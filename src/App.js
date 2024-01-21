@@ -1,42 +1,30 @@
 import React from 'react';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
+
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
+import Home from './components/Home';
+import Header from './components/Header';
+import Exchange from './components/Exchange';
+import Coins from './components/Coins';
+import Coinsdetail from './components/Coinsdetail';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
-    <ChakraProvider theme={theme}>
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
-        </Grid>
-      </Box>
-    </ChakraProvider>
+    <Router>
+    <Header/>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/exchange" element={<Exchange/>}/>
+        <Route path="/coins" element={<Coins/>}/>
+        <Route path="/coin/:id" element={<Coinsdetail/>}/>
+      </Routes>
+      <Footer/>
+    </Router>
   );
 }
 
 export default App;
+// npx create-react-app . --template @chakra-ui is first step create a folder then inside that folder write this code in cli
+// npm i react-router-dom
+// npm i react-icons axios chart.js react-chartjs-2
