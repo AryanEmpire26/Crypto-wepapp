@@ -10,5 +10,5 @@ CryptoWebApp is a web application that provides comprehensive details about vari
 - **Historical Trends:** Graphs showing trends for the last 7 days, 14 days, 30 days, 60 days, and 1 year.
 - **Buy Coins:** Redirect to the official pages to purchase your desired cryptocurrencies.
 
-##Link
+## Link
 https://digicoins-pcwh9aixw-aryan-ranjans-projects.vercel.app/coin/bitcoin
