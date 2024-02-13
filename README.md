@@ -1,6 +1,6 @@
 ## Overview
 
-CryptoWebApp is a web application that provides comprehensive details about various cryptocurrencies. It allows users to view cryptocurrency rankings, prices in different currencies, supply information, historical trends, and more. Additionally, users have the option to buy coins, with a direct link to the official coin pages.
+DigiCoins is a web application that provides comprehensive details about various cryptocurrencies. It allows users to view cryptocurrency rankings, prices in different currencies, supply information, historical trends, and more. Additionally, users have the option to buy coins, with a direct link to the official coin pages.
 
 ## Features
 
