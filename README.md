@@ -11,4 +11,4 @@ CryptoWebApp is a web application that provides comprehensive details about vari
 - **Buy Coins:** Redirect to the official pages to purchase your desired cryptocurrencies.
 
 ## Link
-https://digicoins-pcwh9aixw-aryan-ranjans-projects.vercel.app/coin/bitcoin
+https://digicoins-pcwh9aixw-aryan-ranjans-projects.vercel.app
